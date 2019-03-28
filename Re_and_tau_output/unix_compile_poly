@@ -1,0 +1,13 @@
+echo " UNIX terminal script to compile fortran and execute "
+echo " "
+echo " "
+echo " compiling "
+
+sleep 1
+
+gfortran -o tau tau.f90
+./tau
+
+echo " "
+echo "compile and execute completed"
+echo " "
